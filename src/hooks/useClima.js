@@ -16,9 +16,8 @@ export function useWeather() {
   //La llave de la API.
   const apiKey = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
-  //Se realiza la operación cuando
   useEffect(() => {
-    //Solo se ejecuta si cuanta con un valor.
+    //No se ejecuta la búsqueda hasta agregar un valor.
     if (searchCity === "") {
       return;
     }
@@ -43,7 +42,7 @@ export function useWeather() {
         //Manejo de errores del clima.
         if (err.response && err.response.status === 404) {
           setError(
-            "Lugar no encontrado, vuelva a escribir el lugar de forma correcta"
+            "Lugar no encontrado, vuelva a escribir el lugar de forma correcta."
           );
         } else {
           setError("No se pudo obtener la información del clima.");

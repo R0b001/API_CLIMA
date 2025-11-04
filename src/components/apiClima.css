@@ -12,8 +12,8 @@
   border-radius: 15px;
 }
 
-/* Si prefieres una imagen de fondo: */
 /*
+  Fondo con imagen:
   .app-background {
     background-image: url('/fondo-clima.jpg');
     background-size: cover;
@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     min-height: 100vh;
   }
-  */
+*/
 
 .text-shadow {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
