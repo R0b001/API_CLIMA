@@ -1,0 +1,28 @@
+.app-background {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.bg-Card {
+  background: rgba(255, 255, 255, 0.9);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+/* Si prefieres una imagen de fondo: */
+/*
+  .app-background {
+    background-image: url('/fondo-clima.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  */
+
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
